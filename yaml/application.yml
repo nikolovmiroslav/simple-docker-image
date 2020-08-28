@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: auto-demo-container
-        image: %IMAGE-PLACEHOLDER%
+        image: %GITHUB-PLACEHOLDER%/%IMAGE-PLACEHOLDER%:%IMAGE-TAG-PLACEHOLDER%
         ports:
         - containerPort: 80 
 ---
